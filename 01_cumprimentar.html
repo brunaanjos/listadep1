@@ -8,12 +8,16 @@
 
     //ENTRADA
     const nome = prompt("Por favor, informe seu nome:");
+
     //PROCESSAMENTO
+    let mensagem;
+
     if (nome !== null && nome !== "") {
-            var mensagem = "Bom dia, " + nome + "! Seja bem-vindo!";
-        } else {
-            var mensagem = "Você não forneceu um nome. Olá, visitante!";
-        }
+        mensagem = "Bom dia, " + nome + "! Seja bem-vindo!";
+    } else {
+        mensagem = "Você não forneceu um nome. Olá, visitante!";
+    }
+
     //SAÍDA
     alert(mensagem);
 </script>
